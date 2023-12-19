@@ -1,0 +1,33 @@
+VIRTUAL GARDEN PROJECT IN PYTHON
+
+
+
+As refer to the subject cited above.
+
+
+
+In this project, we used Parent/based Class, Child/sub class, functions, and methods, try-except block, random module, conditions, and much more related to it.
+
+
+
+1 - When the user runs this project a Welcome pop message appears and asks for the Gardener's Name, and once again warmly Welcome Message with the Name of the Gardener, and shows a message that type 'help' for the valid command to take input from the user to show more options i.e. when user type 'help' in response of "What do you want to do?" than it shows more options.
+
+
+
+2 - When it shows an option which is called Available Commands for further processing the program. If you type 'seed' then a program choose randomly a seed, which is already stored in the program, and the popup message 'Gardener_name' has found the 'seed_name', and if as much as you want seed takes.
+
+
+
+3 - Whereas, when you get seed then you want to proceed further which is the next step is plantation the user gives the next command 'plant' and again shows a list of your items for selecting an item number and a message that "'Gardener_name' has planted a 'item/seed name' plant".
+
+
+
+4 - Furthermore, again ask the user What do you want? Now, previously, we followed the step and next step tending, in this step a gardener involves the active and ongoing process of observing plants as they grow and maintaining the garden in the appropriate conditions. So, the user gives the 'tend' command to move next stages and process it till the harvestable condition.
+
+
+
+5 - Finally, a fruit/vegetable a ready to be harvested, so as well as our last command 'harvest' for harvested.
+
+
+
+6 - In view of the above, if a Gardener wants to proceed further then choose again seed command to get 'items/seed' for plantation otherwise type Quit to break/end the program.
