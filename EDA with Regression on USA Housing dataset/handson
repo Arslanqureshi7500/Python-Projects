@@ -1,0 +1,49 @@
+1. Perform EDA on the Dataset Which should include
+
+    a. Visualization and explore the data using seaborn
+
+          i. Add your findings about the data under each graph in the code                
+
+              notebook
+
+    b. Identify the data patterns if exist for single/multiple variables
+
+          i. Write your findings under the plots or code that identify the pattern
+
+     c. Clean the dataset, remove the missing values
+
+          i. Explain your approach in the Collab notebook text cell
+
+     d. Select the target variable and clearly mention the reason for selecting 
+
+          it.
+
+     e. Transform the Dataset
+
+            i. Transform the whole dataset (Features , Target Variable)
+
+      f. Split the Dataset into train and test set
+
+
+
+2. Use the Scikit Learn Library to fit the Regression Models
+
+     a. Use the different regression models
+
+          i. Linear regression
+
+          ii. Decision tree Regressor
+
+          iii. Random forest Regressor
+
+          iv. Gradient boosting Regressor
+
+     b. You have to report the MSE result with the following combinations
+
+          i. Without feature scaling
+
+          ii. With only feature scaling (without target variable)
+
+          iii. With feature and target variable scaling
+
+     c. Display the ranking of different models according to their MSE value
