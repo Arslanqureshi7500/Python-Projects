@@ -1,0 +1,53 @@
+
+**Assignment: Understanding and Extending a Real Estate Ads Creator**
+
+---
+
+**Objective:**
+The objective of this assignment is to familiarize students with the integration of various Python libraries and the creation of interactive applications using Streamlit. Students will understand how to utilize an AI model for generating real estate advertisements based on user input.
+
+**Prerequisites:**
+- Basic understanding of Python programming language.
+- Familiarity with object-oriented programming concepts.
+- Understanding of APIs and environment variables.
+
+**Tasks:**
+
+1. **Library Import and Environment Setup:**
+   - Import the required libraries: `streamlit`, `os`, `dotenv`, `openai`.
+   - Import the `tiktoken` module.
+   - Load environment variables using `dotenv`.
+
+2. **Configuration and Initialization:**
+   - Set up variables for `api_key`, `base_url`, and `model`.
+   - Define a Streamlit title and header for the application.
+
+3. **ConversationBot Class Implementation:**
+   - Implement the `ConversationBot` class:
+     - Initialize with necessary parameters including `api_key`, `base_url`, `model`, `system_message`, `max_history`, and `token_budget`.
+     - Set up OpenAI client with provided API key and base URL.
+     - Implement method `enforce_history_limit()` to ensure conversation history does not exceed a specified limit.
+     - Implement method `chat_completion()` to interact with OpenAI's chat API, generating responses based on user prompts.
+
+4. **User Interface Setup:**
+   - Define user interface elements using Streamlit:
+     - Input fields for agency name, project name, number of rooms, number of washrooms, area, built-up area, price, and location.
+     - Create an instance of `ConversationBot` class.
+
+5. **Submission Trigger:**
+   - Add a "Submit" button using Streamlit.
+   - On submission, generate a prompt for the AI model using user inputs.
+   - Utilize the `chat_completion()` method to obtain a response from the AI model based on the generated prompt.
+   - Display the AI-generated response on the user interface.
+
+**Additional Considerations:**
+- Ensure proper error handling for API requests and user inputs.
+- Encourage students to explore customization options for the UI layout and styling using Streamlit.
+- Discuss the importance of integrating AI capabilities into real-world applications to automate tasks and enhance user experience.
+
+**Conclusion:**
+By completing this assignment, students will gain hands-on experience in developing interactive applications using Streamlit and integrating AI capabilities for content generation. This assignment serves as a practical introduction to real-world application development and AI integration, providing students with valuable skills for future projects and endeavors.
+
+--- 
+
+Feel free to customize the assignment further based on your specific teaching goals and requirements.
